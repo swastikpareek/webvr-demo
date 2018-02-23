@@ -21,7 +21,8 @@
     "webpack-dev-server": "^2.9.4"
   },
   "scripts": {
-    "start": "npm install && npm run build && http-server ./src -c-1 -p 3000",
+    "start": "npm install && npm run build && http-server . -c-1 -p 3000",
+    "serve": "http-server . -c-1 -p 3000",
     "build": "webpack --progress --hide-modules"
   }
 }

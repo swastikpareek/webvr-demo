@@ -4,6 +4,11 @@ For initial work we will be using aframe library
 [aframe.io](https://aframe.io)
 [Aframe docs](https://aframe.io/docs/0.7.0)
 
+### Requirements 
+ * Need Node version greater than 6.
+ * Npm version greater than or equal 3.
+
+
 ### Setup 
 
 ```shell
@@ -12,3 +17,8 @@ For initial work we will be using aframe library
 ~ npm start
 
 ```
+
+### Directly start service
+
+```shell 
+~ npm serve
